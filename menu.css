@@ -61,7 +61,7 @@ nav {
 
 .hero {
     position: relative;
-    background: url('CBSicon/bgimg.png') no-repeat center center/cover;
+    background: url('CBSicon/menubg.png') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
