@@ -41,9 +41,27 @@
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1>Create Account</h1>
-            <p></p>
-            <button>Get Started</button>
+            <div class="registration-container">
+                <form action="/register.html" method="POST" class="registration-form">
+                    <label style="color: #513726;" for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+    
+                    <label style="color: #513726;" for="email" >Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+                    <label style="color: #513726;" for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+    
+                    <label style="color: #513726;" for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+    
+                    <button type="submit" class="register-btn">Register</button>
+                    
+                </form>
+            </div>
         </div>
     </section>
+    
+    <script src="js/script.js"></script>
 </body>
 </html>

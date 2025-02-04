@@ -49,10 +49,11 @@ nav {
 .nav-items a {
     margin: 0 75px;
     text-decoration: none;
-    color: #333;
+    color: #513726;
     font-weight: bold;
     font-size: 1.5rem;
 }
+
 
 .nav-icons a {
     color: #333;
@@ -66,7 +67,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    transition: background-image 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.hero-content {
+    z-index: 10;
+    opacity: 1;
 }
 
 .hero-overlay {
@@ -109,6 +118,9 @@ nav {
 }
 
 
+
+
+
 .icon-btn {
     background-color: #513726;
     color: white;
@@ -135,3 +147,107 @@ nav {
 }
 
 
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f4a261;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.button-link:hover {
+    background-color: #e76f51;
+}
+
+
+/*-------REGISTERACCOUNT-------*/
+.registration-container {
+    background-color: white;
+    padding: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 2px solid #D7BFA5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-form label {
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.registration-form input {
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.register-btn {
+    padding: 10px;
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.register-btn:hover {
+    background-color: #e76f51;
+}
+
+
+
+
+/*-------LOGINACCOUNT-------*/
+.registration-container {
+    background-color: white;
+    padding: 30px;
+    max-width: 400px;
+    margin:  auto;
+    border-radius: 15px;
+    border: 2px solid #D7BFA5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-form label {
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.registration-form input {
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.register-btn {
+    padding: 10px;
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.register-btn:hover {
+    background-color: #e76f51;
+}
